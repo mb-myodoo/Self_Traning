@@ -1,0 +1,44 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* szkolenie_selection
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-07 07:37+0000\n"
+"PO-Revision-Date: 2022-06-07 07:37+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: szkolenie_selection
+#: model:ir.model.fields.selection,name:szkolenie_selection.selection__purchase_order__selection__a1
+#: model:ir.model.fields.selection,name:szkolenie_selection.selection__sale_order__selection__a1
+msgid "AAA"
+msgstr ""
+
+#. module: szkolenie_selection
+#: model:ir.model.fields.selection,name:szkolenie_selection.selection__purchase_order__selection__b2
+#: model:ir.model.fields.selection,name:szkolenie_selection.selection__sale_order__selection__b2
+msgid "BBB"
+msgstr ""
+
+#. module: szkolenie_selection
+#: model:ir.model,name:szkolenie_selection.model_purchase_order
+msgid "Purchase Order"
+msgstr "Zamówienie zakupu"
+
+#. module: szkolenie_selection
+#: model:ir.model,name:szkolenie_selection.model_sale_order
+msgid "Sales Order"
+msgstr "Zamówienie sprzedaży"
+
+#. module: szkolenie_selection
+#: model:ir.model.fields,field_description:szkolenie_selection.field_purchase_order__selection
+#: model:ir.model.fields,field_description:szkolenie_selection.field_sale_order__selection
+msgid "Selection"
+msgstr "Wybór"
