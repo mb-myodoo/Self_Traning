@@ -1,6 +1,6 @@
 {
-    'name': 'MyOdoo - szkolenie',
-    'summary': 'MyOdoo - szkolenie',
+    'name': 'Test',
+    'summary': 'Test',
     'description': '''
     Moduł szkoleniowy dla MyOdoo.pl.
     ''',
@@ -8,9 +8,10 @@
     'website': 'https://myodoo.pl',
     'category': 'Templates',
     'version': '1.0',
-    'depends': ['sale', 'purchase'], #uzupełniamy 
+    'depends': [],
     'data': [
-        'views/fields.xml' #uzupełniamy nazwami plików
+        'security/ir.model.access.csv',
+        'views/test_views.xml',
     ],
     'installable': True,
     'auto_install': False
